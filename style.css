@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff9800;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #222;
+  text-align: center;
+}
+
+/* Home Section */
+#home {
+  text-align: center;
+  background: #eee;
+  padding: 60px 20px;
+  border-radius: 8px;
+}
+
+/* About Section */
+#about {
+  background: #fff;
+  border-left: 5px solid #ff9800;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Education Section */
+#education p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Skills Section */
+.skill-box {
+  margin: 20px 0;
+}
+
+.skill-bar {
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 25px;
+}
+
+.skill-fill {
+  height: 100%;
+  color: #fff;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.skill-fill.html {
+  width: 90%;
+  background: #e44d26;
+}
+
+.skill-fill.css {
+  width: 85%;
+  background: #264de4;
+}
+
+.skill-fill.js {
+  width: 70%;
+  background: #f0db4f;
+  color: #333;
+}
+
+.skill-fill.python {
+  width: 75%;
+  background: #306998;
+}
+
+/* Projects Section */
+#projects ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#projects li {
+  background: #fff;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Contact Section */
+#contact p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
